@@ -1,8 +1,4 @@
-// Simple interactive script
-document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("clickMe");
-
-    btn.addEventListener("click", function () {
-        alert("Hello from your GitHub Pages website! 🎉");
-    });
+// Simple greeting message
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Welcome to Abisha G's DevOps Portfolio!");
 });
